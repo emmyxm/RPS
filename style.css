@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#first-part {
+    margin-bottom: 25px;
+    color: rgb(87, 87, 236);
+}
+
+.head1 {
+    font-size: 35px;
+}
+
+.head2 {
+    padding-left: 22px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.score {
+    font-size: 25px;
+    color: rgb(87, 87, 236);
+    margin-bottom: 15px;
+}
+
+#score-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.scores {
+    color: rgb(87, 87, 236);
+    font-size: 40px;
+    font-weight: 20;
+}
+
+.human {
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.Artifical-intelligence {
+    margin-left: 35px;
+    padding-bottom: 5px;
+}
+.human,
+.Artifical-intelligence {
+    font-size: 20px;
+}
+
+#winner {
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: rgb(87, 87, 236);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 8%;
+}
+
+.btn1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 87, 236);
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 82px;
+    padding: 5px;
+    border: solid rgb(87, 87, 236) 1px;
+    border-radius: 8%;
+}
