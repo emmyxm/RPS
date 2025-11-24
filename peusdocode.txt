@@ -4,4 +4,7 @@ we need to get human input.
 we need to take computer and human input.
 we need to store computer and human input.
 we need if/else logic to process computer and human logic to get winner.
-testting
+
+WE ARE WROKING WITH A UI THIS TIME AROUND SO THIS TIME THE LOGIC WILL BE A BIT DIFFERENT SO WE HAVE TO DO SOME MORE PROBLEM SLOVING:
+so first of all we are going to be connecting all the buttons with event listners
+we want when the user

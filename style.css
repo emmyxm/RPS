@@ -10,7 +10,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
+    flex-wrap: wrap;
+    /* margin-top: 80px; */
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+    width: 100vw;
+    padding: 12px 55px;
+    background-color: #1E1E1E;
+    color: #5757EC;
+}
+
+.section-id {
+    text-decoration: none;
+    font-style: normal;
+    color: #5757EC;
 }
 
 #first-part {
@@ -55,6 +74,7 @@ body {
     margin-left: 35px;
     padding-bottom: 5px;
 }
+
 .human,
 .Artifical-intelligence {
     font-size: 20px;
@@ -93,4 +113,42 @@ body {
 
 .game-count {
     margin-right: 5px;
+}
+
+#sections {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    min-width: fit-content;
+}
+
+.about,
+.instructions {
+    font-family: none;
+}
+
+#about {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#instructions {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1E1E1E;
+    color: #5757EC;
+    width: 100%;
+    left: 0;
+    margin-top: 16px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-style: normal;
+    text-shadow: 2px;
 }
