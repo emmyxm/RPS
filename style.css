@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: 80px; */
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+    width: 100vw;
+    padding: 12px 55px;
+    background-color: #1E1E1E;
+    color: #5757EC;
+}
+
+.section-id {
+    text-decoration: none;
+    font-style: normal;
+    color: #5757EC;
+}
+
+#first-part {
+    margin-bottom: 25px;
+    color: rgb(87, 87, 236);
+}
+
+.head1 {
+    font-size: 35px;
+}
+
+.head2 {
+    padding-left: 22px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.score {
+    font-size: 25px;
+    color: rgb(87, 87, 236);
+    margin-bottom: 15px;
+}
+
+#score-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.scores {
+    color: rgb(87, 87, 236);
+    font-size: 40px;
+    font-weight: 20;
+}
+
+.human {
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.Artifical-intelligence {
+    margin-left: 35px;
+    padding-bottom: 5px;
+}
+
+.human,
+.Artifical-intelligence {
+    font-size: 20px;
+}
+
+#winner {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: rgb(87, 87, 236);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 8%;
+}
+
+.btn1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 87, 236);
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    margin-left: 86px;
+    padding: 5px;
+    border: solid rgb(87, 87, 236) 1px;
+    border-radius: 8%;
+}
+
+.game-count {
+    margin-right: 5px;
+}
+
+#sections {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    min-width: fit-content;
+}
+
+.about,
+.instructions {
+    font-family: none;
+}
+
+#about {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#instructions {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1E1E1E;
+    color: #5757EC;
+    width: 100%;
+    left: 0;
+    margin-top: 16px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-style: normal;
+    text-shadow: 2px;
+}
