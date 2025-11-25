@@ -11,6 +11,8 @@ body {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #ffffff;
     /* margin-top: 80px; */
 }
 
@@ -22,8 +24,8 @@ body {
     margin-bottom: 65px;
     width: 100vw;
     padding: 12px 55px;
-    background-color: #1E1E1E;
-    color: #5757EC;
+    background: linear-gradient(90deg, #43cea2, #185a9d);
+    color: #ffffff;
 }
 
 .section-id {
@@ -34,7 +36,7 @@ body {
 
 #first-part {
     margin-bottom: 25px;
-    color: rgb(87, 87, 236);
+    color: #ffd700;
 }
 
 .head1 {
@@ -49,7 +51,7 @@ body {
 
 .score {
     font-size: 25px;
-    color: rgb(87, 87, 236);
+    color: #ff6ec7;
     margin-bottom: 15px;
 }
 
@@ -60,7 +62,7 @@ body {
 }
 
 .scores {
-    color: rgb(87, 87, 236);
+    color: #ff6ec7;
     font-size: 40px;
     font-weight: 20;
 }
@@ -86,29 +88,40 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+    color: #ffd700;
 }
 
 .btn {
-    background-color: rgb(87, 87, 236);
-    color: rgb(255, 255, 255);
+    background-color: #ff6ec7;
+    color: #ffffff;
     font-size: 15px;
     margin-top: 10px;
     margin-left: 10px;
     padding: 12px;
     border: none;
     border-radius: 8%;
+    transition: 0.3s;
 }
 
 .btn1 {
-    background-color: rgb(255, 255, 255);
-    color: rgb(87, 87, 236);
+    background-color: #ffffff;
+    color: #764ba2;
     font-size: 18px;
     margin-top: 8px;
     margin-bottom: 30px;
-    margin-left: 86px;
+    margin-left: 82px;
     padding: 5px;
-    border: solid rgb(87, 87, 236) 1px;
+    border: solid #764ba2 1px;
     border-radius: 8%;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff85d0;
+}
+
+.btn1:hover {
+    background-color: #f0f0f0;
 }
 
 .game-count {
@@ -131,24 +144,68 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 80px;
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 #instructions {
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 
 footer {
     display: flex;
     justify-content: center;
-    background-color: #1E1E1E;
-    color: #5757EC;
-    width: 100%;
+    background: linear-gradient(90deg, #43cea2, #185a9d);
+    color: #ffffff;
+    width: 100vw;
     left: 0;
     margin-top: 16px;
     padding: 10px 0;
     font-size: 20px;
     font-style: normal;
-    text-shadow: 2px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/* Mobile navigation and section spacing */
+
+/* Normal phone (480px–768px) */
+@media (max-width: 768px) and (min-width: 480px) {
+    .navigation {
+        flex-direction: column; /* stack nav links */
+        align-items: center;
+        gap: 10px; /* spacing between links */
+        padding: 12px 20px;
+        text-align: center;
+    }
+
+    .section-id {
+        margin: 5px 0; /* spacing between links */
+    }
+
+    #sections > * {
+        margin-bottom: 25px; /* extra spacing between sections */
+    }
+}
+
+/* Small phone (320px–479px) */
+@media (max-width: 479px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 12px;
+        text-align: center;
+    }
+
+    .section-id {
+        margin: 4px 0;
+    }
+
+    #sections > * {
+        margin-bottom: 20px;
+        margin-left: 18px;
+        padding-left: 10px;
+    }
 }
