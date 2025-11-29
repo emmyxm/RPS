@@ -14,9 +14,9 @@
         <nav class="navigation">
             <h2>Rock, Paper, Scissors</h2>
             <div class="section-id">
-                <a href="#first-part">Game</a>
-                <a href="#instructions">Instructions</a>
-                <a href="#footer">Author</a>
+                <a href="#first-part" class="parts">Game</a>
+                <a href="#instructions" class="parts">Instructions</a>
+                <a href="#footer" class="parts">Author</a>
             </div>    
         </nav>
     </div>
@@ -28,21 +28,21 @@
     <h3 class="score">score</h3>
     <div id="score-board">
         <div class="human">
-            <div class="scores">0</div>
+            <div id="human-score">0</div>
             <h4>human</h4>
-            <div class="human-output"></div>
+            <div id="human-output"></div>
         </div>
         <br>
         <hr>
         <br>
         <div class="Artifical-intelligence">
-            <div class="scores">0</div>
+            <div id="ai-score">0</div>
             <h4>AI</h4>
-            <div class="ai-output"></div>
+            <div id="ai-output"></div>
         </div>
     </div>
     <div id="winner">
-        <h2>Start Game</h2>
+        <h2 id="winners">Start Game</h2>
     </div>
 
     <div id="buttons">
@@ -54,7 +54,7 @@
         <button id="reset" class="btn1">Reset</button>
     </div>
 
-    <h3 class="game-count">Game count:</h3>
+    <h3 id="game-count">Game count:</h3>
 
     <div id="sections">
         <section id="about">
@@ -75,7 +75,10 @@
 
             <ol>
                 <li>You can start the game by selecting "rock", "scissors" or "paper".</li>
-                <li>Choose continuously until you create a pattern.</li>
+                <li>AI will randomly output it's own answer</li>
+                <li>both answers will be on the score board</li>
+                <li>at the end of the game final answers will be Displayed</li>
+                <!-- <li>Choose continuously until you create a pattern.</li>
                 <li>
                     Examples of patterns:
                     <ul>Rock, rock, rock, rock, etc.</ul>
@@ -83,13 +86,13 @@
                     <ul>Rock, scissors, paper, rock, scissors, paper, etc.</ul>
                     <ul>Paper, paper, paper, paper, etc.</ul>
                 </li>
-                <li>See that you will loose.</li>
+                <li>See that you will loose.</li> -->
             </ol>
 
         </section>
 
         <section id="software">
-            <h2>Tools</h2> <br>
+            <h2 class="tools">Tools</h2> <br>
             <p>Built with javaScript and Css </p>
             <p>Get code in github</p>
         </section>
