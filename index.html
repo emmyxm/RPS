@@ -1,84 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
+  <body>
     <div id="nav-bar">
-        <nav class="navigation">
-            <h2>Rock, Paper, Scissors</h2>
-            <div class="section-id">
-                <a href="#first-part" class="parts">Game</a>
-                <a href="#instructions" class="parts">Instructions</a>
-                <a href="#footer" class="parts">Author</a>
-            </div>    
-        </nav>
+      <nav class="navigation">
+        <h2>Rock, Paper, Scissors</h2>
+        <div class="section-id">
+          <a href="#first-part" class="parts">Game</a>
+          <a href="#instructions" class="parts">Instructions</a>
+          <a href="#footer" class="parts">Author</a>
+        </div>
+      </nav>
     </div>
     <div id="first-part">
-        <h2 class="head1">Rock Paper Scissors</h2>
-        <h4 class="head2">Leading game in the industry</h4>
+      <h2 class="head1">Rock Paper Scissors</h2>
+      <h4 class="head2">Leading game in the industry</h4>
     </div>
 
     <h3 class="score">score</h3>
     <div id="score-board">
-        <div class="human">
-            <div id="human-score">0</div>
-            <h4>human</h4>
-            <div id="human-output"></div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="Artifical-intelligence">
-            <div id="ai-score">0</div>
-            <h4>AI</h4>
-            <div id="ai-output"></div>
-        </div>
+      <div class="human">
+        <div id="human-score">0</div>
+        <h4>human</h4>
+        <div id="human-output"></div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <div class="Artifical-intelligence">
+        <div id="ai-score">0</div>
+        <h4>AI</h4>
+        <div id="ai-output"></div>
+      </div>
     </div>
     <div id="winner">
-        <h2 id="winners">Start Game</h2>
+      <h2 id="winners">Start Game</h2>
     </div>
 
     <div id="buttons">
-        <div class="first-button">
-            <button id="rock" class="btn">Rock</button>
-            <button id="paper" class="btn">Paper</button>
-            <button id="scissors" class="btn">Scissors</button>
-        </div>
-        <button id="reset" class="btn1">Reset</button>
+      <div class="first-button">
+        <button id="rock" class="btn">Rock</button>
+        <button id="paper" class="btn">Paper</button>
+        <button id="scissors" class="btn">Scissors</button>
+      </div>
+      <button id="reset" class="btn1">Reset</button>
     </div>
 
     <h3 id="game-count">Game count:</h3>
 
     <div id="sections">
-        <section id="about">
-            <h2 class="about">what is this?</h2> <br>
-            <p>
-                This is a rock paper scissors game created using Artifical-intelligence.
-            </p>
-            <br>
-            <p>
-                This game can read the players' patterns to determine the next steps for 'AI' will take in order to win.
-            </p>
-            <br>
+      <section id="about">
+        <h2 class="about">what is this?</h2>
+        <br />
+        <p>
+          This is a rock paper scissors game created using
+          Artifical-intelligence.
+        </p>
+        <br />
+        <p>
+          This game can read the players' patterns to determine the next steps
+          for 'AI' will take in order to win.
+        </p>
+        <br />
+      </section>
 
-        </section>
+      <section id="instructions">
+        <h2 class="instructions">How to play</h2>
+        <br />
 
-        <section id="instructions">
-            <h2 class="instructions">How to play</h2> <br>
-
-            <ol>
-                <li>You can start the game by selecting "rock", "scissors" or "paper".</li>
-                <li>AI will randomly output it's own answer</li>
-                <li>both answers will be on the score board</li>
-                <li>at the end of the game final answers will be Displayed</li>
-                <!-- <li>Choose continuously until you create a pattern.</li>
+        <ol>
+          <li>
+            You can start the game by selecting "rock", "scissors" or "paper".
+          </li>
+          <li>AI will randomly output it's own answer</li>
+          <li>both answers will be on the score board</li>
+          <li>at the end of the game final answers will be Displayed</li>
+          <!-- <li>Choose continuously until you create a pattern.</li>
                 <li>
                     Examples of patterns:
                     <ul>Rock, rock, rock, rock, etc.</ul>
@@ -87,20 +90,19 @@
                     <ul>Paper, paper, paper, paper, etc.</ul>
                 </li>
                 <li>See that you will loose.</li> -->
-            </ol>
+        </ol>
+      </section>
 
-        </section>
-
-        <section id="software">
-            <h2 class="tools">Tools</h2> <br>
-            <p>Built with javaScript and Css </p>
-            <p>Get code in github</p>
-        </section>
+      <section id="software">
+        <h2 class="tools">Tools</h2>
+        <br />
+        <p>Built with javaScript and Css</p>
+        <p>Get code in github</p>
+      </section>
     </div>
 
     <footer id="footer">By Emmanuel</footer>
 
     <script src="script2.js"></script>
-</body>
-
+  </body>
 </html>
